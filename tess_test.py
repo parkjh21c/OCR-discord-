@@ -6,7 +6,7 @@ import pytesseract
 # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 # 이미지를 로드
-image_path = './user_image/image.png'
+image_path = './user_image/p1.png'
 image = Image.open(image_path)
 
 # 관심 영역(ROI) 좌표 정의 (왼쪽 위 x, 왼쪽 위 y, 오른쪽 아래 x, 오른쪽 아래 y)
